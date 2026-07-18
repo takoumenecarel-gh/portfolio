@@ -11,20 +11,20 @@
   * { margin:0; padding:0; box-sizing:border-box; }
 
   :root{
-    --bg:            #121826;
-    --bg-elev:       #1b2432;
-    --bg-elev-2:     #233041;
-    --border:        #33455a;
-    --border-soft:   #273447;
-    --text:          #f2f5f9;
-    --text-dim:      #c7d2e0;
-    --text-faint:    #8d9aac;
-    --amber:         #f2a65a;
-    --teal:          #45d0c0;
-    --violet:        #b18cf5;
-    --red-dot:       #f2555a;
-    --yellow-dot:    #f2c14e;
-    --green-dot:     #3ec97c;
+    --bg:            #f7fafc;
+    --bg-elev:       #ffffff;
+    --bg-elev-2:     #eef2ff;
+    --border:        #d1d5db;
+    --border-soft:   #e2e8f0;
+    --text:          #0f172a;
+    --text-dim:      #475569;
+    --text-faint:    #64748b;
+    --amber:         #d97706;
+    --teal:          #0f766e;
+    --violet:        #5b21b6;
+    --red-dot:       #dc2626;
+    --yellow-dot:    #ca8a04;
+    --green-dot:     #16a34a;
     --mono: 'JetBrains Mono', monospace;
     --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   }
@@ -45,8 +45,8 @@
     background-image:
       linear-gradient(var(--border-soft) 1px, transparent 1px),
       linear-gradient(90deg, var(--border-soft) 1px, transparent 1px);
-    background-size: 42px 42px;
-    opacity:.25;
+    background-size: 56px 56px;
+    opacity:.12;
     pointer-events:none;
     z-index:0;
   }
@@ -58,7 +58,7 @@
     background: var(--bg-elev);
     border:1px solid var(--border);
     border-radius:12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    box-shadow: 0 10px 30px rgba(15,23,42,.12);
     overflow:hidden;
   }
   .win-bar{
